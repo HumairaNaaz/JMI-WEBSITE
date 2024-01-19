@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   /* background-image: url("yell.jpeg");
+   background-size: cover;
+   background-position: center; */
+   font-family: Arial;
+}
+.nav{
+    background-color:white;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    background-image: url("jamiaur.jpg");
+    display: flex;
+    justify-content: right;
+    color: green;
+    font-size: 40px;
+}
+.nav p{
+ margin-right: 120px;
+  padding-top: 15px;
+}
+#jmi2{
+
+    /* background-image: url("jmiamara.png"); */
+    background-repeat: no-repeat;
+    justify-content: right;
+    padding: 10px;
+}
+.menu-bar{
+    background-color:rgb(17, 170, 17);
+    text-align: center;
+
+}
+.menu-bar ul{
+     display:inline-flex;
+     list-style: none;
+     color: green;
+}
+.menu-bar ul li{
+     width: 120px;
+     margin: 15px;
+     padding: 15px;
+    
+     
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color:rgb(224, 224, 116);
+}
+.active, .menu-bar ul li:hover
+{
+  background-color:yellow;
+  border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu1 {
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu1{
+    display: block;
+    position:absolute;
+    background-color: rgb(6, 48, 6);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.menu-bar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu1 ul li a:hover{
+    color: maroon;
+}
+.fa-angel-right{
+
+    float :right;
+
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position:absolute;
+    display:block;
+    margin-top:-40px;
+    margin-left:140px;
+    background:orange;
+
+}
+.sub-menu-3{
+    display: none;
+}
+.hover-u:hover .sub-menu-3
+{
+    position:absolute;
+    display:block;
+    margin-top:-40px;
+    margin-left:140px;
+    background:purple;
+
+}
+.host{
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+    background-image: url("boysp.jpeg");
+    background-size: cover;
+   
+}
+
+   
+.fee1{
+    width:100%;
+    height: 300px;
+    text-align: center;
+    color:black;
+
+}
+.fee2{
+    width:100%;
+    height: 200px;
+    
+}
+.fee2 p{
+    padding:40px;
+    font-size:large;
+}
+
+h3 a{
+
+    text-decoration: none;
+}
+.camp{
+    height: 150px;
+    width:700px;
+    border: 1px dotted black;
+    padding: 20px;
+    margin:10px;
+}
+.camp1{
+    height: 100px;
+    width:700px;
+    border: 1px dotted black;
+    padding: 20px;
+    margin:10px;
+}
+.camp3{
+    height: 100px;
+    width:700px;
+    border: 1px dotted black;
+    padding: 20px;
+    margin:10px;
+    
+}
+.camp3 a{
+    text-decoration: none;
+    color:blue;
+    font-size: 20px;
+}
+
+
